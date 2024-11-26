@@ -12,7 +12,6 @@ const corsOptions = {
   };
 app.use(cors() );
 
-
 // Signin User(Register)
 app.post('/register', async(req, res)=>{
     var {name, email, password} = req.body;
